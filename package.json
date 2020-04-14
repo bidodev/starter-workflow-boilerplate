@@ -1,13 +1,13 @@
 {
-  "name": "my-template",
+  "name": "sassy-css-boilerplate",
   "version": "1.0.0",
-  "description": "template for sassy css",
+  "description": "Sassy CSS Boilerplate including Sass 7-1 Pattern",
   "main": "index.js",
   "scripts": {
-    "start": "run-p devserver watch:styles",
+    "start": "run-p liveserver watch:styles",
     "build": "run-s clean clean:styles build:styles prefix:css copy",
     "deploy": "run-s build publish",
-    "devserver": "live-server src",
+    "liveserver": "live-server src",
     "build:styles": "sass src/scss/main.scss:src/styles/style.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/styles/style.css -o src/styles/style.css",
     "watch:styles": "sass src/scss/main.scss:src/styles/style.css --watch",
