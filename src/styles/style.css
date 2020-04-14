@@ -1,3 +1,30 @@
+body {
+  background-color: crimson;
+  box-sizing: border-box;
+}
 
+@-webkit-keyframes MyAnimation {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+  }
+  100% {
+    left: 20px;
+  }
+}
 
-/*# sourceMappingURL=style.css.map */
+@keyframes MyAnimation {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+  }
+  100% {
+    left: 20px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvX3NoYW1lLnNjc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBQTtFQUNBLHNCQUFBO0FDQ0Y7O0FEQ0E7RUFDRTtJQUNFLE9BQUE7RUNFRjtFREFBO0lBQ0UsV0FBQTtFQ0VGO0VEQUE7SUFDRSxVQUFBO0VDRUY7QUFDRjs7QURYQTtFQUNFO0lBQ0UsT0FBQTtFQ0VGO0VEQUE7SUFDRSxXQUFBO0VDRUY7RURBQTtJQUNFLFVBQUE7RUNFRjtBQUNGIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

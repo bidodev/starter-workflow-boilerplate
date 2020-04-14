@@ -1,3 +1,3 @@
 ---
 
-# Sassy CSS boiler
+# Sassy CSS Boilerplate
