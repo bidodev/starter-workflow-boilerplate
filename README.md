@@ -1,3 +1,3 @@
+---
 
-***
-# Omnifood
+# Sassy CSS boiler
