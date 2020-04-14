@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "my-template",
   "version": "1.0.0",
-  "description": "Template",
+  "description": "template for sassy css",
   "main": "index.js",
   "scripts": {
     "start": "run-p watch watch:styles",
