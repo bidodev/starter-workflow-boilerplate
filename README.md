@@ -1,13 +1,12 @@
 ---
 
 # Vanilla JS Boilerplate
-> This is a starter workflow for building vanilla JavaScript applications using Sass.
 
+> This is a starter workflow for building vanilla JavaScript applications using Sass.
 
 This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.
 
 Each folder of this project has its own `README.md` file to explain the purpose and add extra information. Be sure to browse the repository to see how it works.
-
 
 ## Setup
 
@@ -16,7 +15,6 @@ Each folder of this project has its own `README.md` file to explain the purpose 
 ```
 npm install
 ```
-
 
 ## Scripts
 
@@ -29,13 +27,13 @@ npm install
 
 ### Development
 
-Remove **dist** folder
+Run **live-server** and **sass** in **watch** mode and start coding!
 
 ```
 npm start
 ```
 
-Run **live-server** and **sass** in **watch** mode and start coding!
+Remove **dist** folder
 
 ```
 npm run clean
@@ -49,7 +47,6 @@ Transpile sass, add CSS prefixs and copy relevant files from **src** to **dist**
 npm run build
 ```
 
-
 ### Deploy to Github Pages
 
 Deploy your code to **Github Pages**: this script creates a 'gh-pages' branch and publishes the **dist** folder. For this to work, make sure you already have a remote repository on github.
@@ -62,7 +59,7 @@ npm run deploy
 
 ### `package.json` & `package-lock.json`
 
-These files contain various information about you, your project and the project dependencies, as well as useful scripts to help you with the development process. Please do not edit these files for the time being, except where you're asked to. In the future, you will learn more about project dependencies.
+These files contain various information about you, your project and the project dependencies, as well as useful scripts to help you with the development process.
 
 ### `src` & `index.html`
 
@@ -72,19 +69,21 @@ The `src` folder contains any file you would want to add to your website before 
 
 ### `scripts`
 
-The `scripts` folder will contain any `js` files you will add to your website. Eventually `index.js` is the _**main**_ script file of your project. Feel free to use this file to add any JavaScript that you want to experiment with. You will learn more about JavaScript in the browser in the future.
+The `scripts` folder will contain any `js` files you will add to your website. Eventually `index.js` is the _**main**_ script file of your project. Feel free to use this file to add any JavaScript that you want to experiment with.
 
 ### `scss` & `style.scss`
 
-The `scss` folder will contain any `scss` or `css` files (depending on your preference). In order to include additional styles in your project, you must import them to `style.scss`.
+The `scss` folder already contain a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture). In order to include additional styles in your project, you must import them to `main.scss`.
 
-`style.scss` is your style _**entry point**_. Any other `scss` or `css` imported to this file can be used, and any styles written directly to this file will be applied.
+`main.scss` is your style _**entry point**_. Any other `scss` or `css` imported to this file can be used, and any styles written directly to this file will be applied.
 
 ### `img` or `fonts`
 
 For the sake of organization and good project structure practices, please use these folders in order to keep your images and fonts respectively.
 
-### `dist`
+## FAQ
+
+### What is this `dist` folder?
 
 The `dist` folder will be automatically generated whenever your run the build script:
 
@@ -93,4 +92,3 @@ npm run build
 ```
 
 This folder will contain your built project, ready to be deployed online. It is excluded from `git` tracking since it is not customary to include compiled code in a development project.
-
