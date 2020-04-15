@@ -4,26 +4,28 @@
 
 > This is a starter workflow for building vanilla JavaScript applications using Sass.
 
-This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.
+It includes all the necessary scripts to develop and deploy an application on Github Pages.
+
+The boilerplate uses SASS and follow the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.
 
 Each folder of this project has its own `README.md` file to explain the purpose and add extra information. Be sure to browse the repository to see how it works.
 
 ## Setup
 
-1 - Install all the necessary dependencies
+1 - Installing all the necessary dependencies
+
+> The following dependencies will be installed.
+
+- Automatic [Sass](https://sass-lang.com/) transpilation
+- Development server powered by [live-server](https://www.npmjs.com/package/live-server) with automatic reload
+- Deployments to github pages with [gh-pages](https://www.npmjs.com/package/gh-pages)
+- Prefixier CSS using [Autoprefixier](https://github.com/postcss/autoprefixer)
 
 ```
 npm install
 ```
 
 ## Scripts
-
-> The following tools are already added to the scripts.
-
-- Automatic [Sass](https://sass-lang.com/) transpilation
-- Development server powered by [live-server](https://www.npmjs.com/package/live-server) with automatic reload
-- Deployments to github pages with [gh-pages](https://www.npmjs.com/package/gh-pages)
-- Prefixier CSS using [Autoprefixier](https://github.com/postcss/autoprefixer)
 
 ### Development
 
