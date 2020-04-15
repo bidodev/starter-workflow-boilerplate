@@ -1,100 +1,54 @@
 ---
 
-# Sassy CSS Boilerplate
+# Vanilla JS Boilerplate
+> This is a starter workflow for building vanilla JavaScript applications using Sass.
 
-An HTML CSS boilerplate with built-in sass support:
 
-## Get Started
+This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.
 
-- [Setup](#setup)
-- [Scripts](#scripts)
-- [Project Structure](#project-structure)
+Each folder of this project has its own `README.md` file to explain the purpose and add extra information. Be sure to browse the repository to see how it works.
+
 
 ## Setup
 
-1. create a folder for your project
-
-1. create README.md file
-
-1. you need to run
+1 - Install all the necessary dependencies
 
 ```
-npm init
+npm install
 ```
 
-in order to create `package.json` file
-
-1. Edit `package.json` to add you project's name
-
-   `package.json`
-
-   ```json
-   {
-     "name": "[project name]",
-     ...
-     "author": "[your name]"
-   }
-   ```
-
-1. create `.gitignore` and skip this folders
-
-```
-dist/
-
-src/styles/
-
-node_modules/
-```
-
-1. create folder `src`
-
-1. create your project folders inside `src` folder, you will need (scss,img,scripts) folders and `index.html` file
-
-1. Edit `src/index.html` to add your projects name
-
-   ```html
-   ...
-   <head>
-     ...
-     <title>[project name]</title>
-   </head>
-   ...
-   ```
-
-1. Start a new git repository and make an initial commit. This will make sure that you can work on your project with git.
-
-   ```
-   git init
-   git add . && git commit -m "Initial commit"
-   ```
-
-   PS: Remember to push to Github
-
-1. Install the dependencies
-
-   ```
-   npm install
-   ```
 
 ## Scripts
 
+> The following tools are already added to the scripts.
+
+- Automatic [Sass](https://sass-lang.com/) transpilation
+- Development server powered by [live-server](https://www.npmjs.com/package/live-server) with automatic reload
+- Deployments to github pages with [gh-pages](https://www.npmjs.com/package/gh-pages)
+- Prefixier CSS using [Autoprefixier](https://github.com/postcss/autoprefixer)
+
 ### Development
 
-Run **live-server** and **sass** in **watch** mode and start coding!
+Remove **dist** folder
 
 ```
 npm start
 ```
 
+Run **live-server** and **sass** in **watch** mode and start coding!
+
+```
+npm run clean
+```
+
 ### Production
 
-Transpile sass and copy relevant files from **src** to **dist** to prepare your website for **deployment**.
+Transpile sass, add CSS prefixs and copy relevant files from **src** to **dist** to prepare your website for **deployment**.
 
 ```
 npm run build
 ```
 
-PS: Remember to push to Github
 
 ### Deploy to Github Pages
 
@@ -105,27 +59,6 @@ npm run deploy
 ```
 
 ## Project Structure
-
-Any project created with this boilerplate will follow the structure below:
-
-```
-Project
-│   README.md
-│   package.json
-|   package-lock.json
-└───src
-│   │   index.html
-│   └───styles
-|   └───scss
-|   |   └───style.scss
-│   └───scripts
-|   └───img
-└───dist
-```
-
-### `README.md`
-
-The README should contain a brief description of your project, feel free to delete this guide or rename it to add your own description.
 
 ### `package.json` & `package-lock.json`
 
@@ -161,8 +94,3 @@ npm run build
 
 This folder will contain your built project, ready to be deployed online. It is excluded from `git` tracking since it is not customary to include compiled code in a development project.
 
-### links
-
-- Automatic [Sass](https://sass-lang.com/) transpilation
-- Development server powered by [live-server](https://www.npmjs.com/package/live-server) with automatic reload
-- Deployments to github pages with [gh-pages](https://www.npmjs.com/package/gh-pages)
