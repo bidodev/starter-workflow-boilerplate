@@ -1,32 +1,35 @@
-@import "./abstracts/variables";
-@import "./abstracts/function";
-@import "./abstracts/mixins";
-@import "./abstracts/placeholders";
+@charset "UTF-8";
 
-@import "./base/animations";
-@import "./base/base";
-@import "./base/reset";
-@import "./base/typography";
-@import "./base/utilities";
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
 
-@import "./components/buttons";
-@import "./components/carousel";
-@import "./components/cover";
-@import "./components/dropdown";
+// 2. Vendors
+@import
+  'vendors/normalize';
 
-@import "./layout/footer";
-@import "./layout/forms";
-@import "./layout/grid";
-@import "./layout/header";
-@import "./layout/navigation";
-@import "./layout/sidebar";
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
 
-@import "./pages/contact";
-@import "./pages/home";
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
 
-@import "./themes/admin";
-@import "./themes/theme";
+// 5. Components
+@import
+  'components/button';
 
-@import "./vendors/bootstrap";
-@import "./vendors/jquery-ui";
-@import "./vendors/normalize";
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';
