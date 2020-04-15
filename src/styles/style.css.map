@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/base/_reset.scss","../scss/_shame.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;EAGE;EACA;EACA;;;AAGF;EAEE;;;AAGF;EACE;;;ACdF;EACE;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/base/_reset.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;EAGE;EACA;EACA;;;AAGF;EAEE;;;AAGF;EACE","file":"style.css"}

@@ -1,7 +1,7 @@
+@import "./abstracts/variables";
 @import "./abstracts/function";
 @import "./abstracts/mixins";
 @import "./abstracts/placeholders";
-@import "./abstracts/variables";
 
 @import "./base/animations";
 @import "./base/base";
@@ -30,5 +30,3 @@
 @import "./vendors/bootstrap";
 @import "./vendors/jquery-ui";
 @import "./vendors/normalize";
-
-@import "./shame";
