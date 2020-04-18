@@ -14,7 +14,8 @@
     "clean": "rm -rf dist",
     "clean:styles": "rm -rf src/styles",
     "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
-    "publish": "gh-pages -d dist"
+    "publish": "gh-pages -d dist",
+    "ungit": "ungit"
   },
   "author": "Bido",
   "license": "ISC",
